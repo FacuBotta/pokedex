@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+.container {
+    position: relative;
+    /* width: 70%; */
+}
+
+.pokedexImg {
+    z-index: 100;
+}
+.containerPokemon {
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: -1;
+    width: 24.5%;
+    height: 28.5%;
+    left: 9.5%;
+    top: 32%;
+    background-color: rgba(43, 226, 46, 0.281);
+}
+
+.search {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50%;
+    text-align: center;
+    color: rgb(0, 255, 0);
+    background-color: rgba(32, 155, 63);
+    border-radius: 10px;
+    border: 2px solid rgb(51, 51, 51);
+    position: absolute;
+    width: 15%;
+    height: 10.5%;
+    left: 9.5%;
+    top: 78%;
+}
+
+
+.description{
+    background-color: rgba(32, 155, 63);
+    color: rgb(0, 255, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(50, 50, 50);
+    position: absolute;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: stretch; */
+    margin: auto;
+    text-align: left;
+    padding: 1%;
+    width: 27%;
+    height: 18%;
+    left: 47%;
+    top: 33.5%;
+}
+
+p {
+    margin: 3px;
+    font-size: 50%;
+}
+
+.turnLeft, .turnRigth, .btnIdNext, .btnIdPrev {
+    border: 0;
+    color: rgb(111, 111, 111);
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bolder;
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    font-size: 70%;
+}
+
+.turnLeft {
+    left: 34%;
+    top: 76.5%;
+}
+.turnRigth {
+    left: 28%;
+    top: 76.5%;
+}
+
+.btnIdNext {
+    left: 55%;
+    top: 71%;
+}
+.btnIdPrev {
+    left: 50%;
+    top: 71%;
+}
+
+.idVisor {
+    position: absolute;
+    left: 65%;
+    top: 83%;
+    color: rgb(246, 254, 0);
+}
