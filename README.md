@@ -15,3 +15,5 @@ This small project was a school assignment designed to interact with an API. It 
 - JavaScript
 - RESTful API
 
+## Screenshot
+![Screenshot](./capture-ecran.png)

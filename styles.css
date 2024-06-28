@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
     font-family: 'Press Start 2P', cursive;
+    background-color: rgb(46, 46, 46);
 }
 .container {
     position: relative;
-    /* width: 70%; */
+    width: 70%;
+    margin: auto;
 }
 
 .pokedexImg {
@@ -27,7 +29,7 @@ body {
 
 .search {
     font-family: 'Press Start 2P', cursive;
-    font-size: 50%;
+    font-size: 1rem;
     text-align: center;
     color: rgb(0, 255, 0);
     background-color: rgba(32, 155, 63);
@@ -48,9 +50,6 @@ body {
     border: 2px solid rgb(50, 50, 50);
     position: absolute;
     box-sizing: border-box;
-    /* display: flex;
-    flex-direction: column; */
-    /* justify-content: stretch; */
     margin: auto;
     text-align: left;
     padding: 1%;
@@ -62,7 +61,7 @@ body {
 
 p {
     margin: 3px;
-    font-size: 50%;
+    font-size: .8rem;
 }
 
 .turnLeft, .turnRigth, .btnIdNext, .btnIdPrev {

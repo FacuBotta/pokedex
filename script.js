@@ -22,7 +22,7 @@ let turnRigth = document.getElementById("turnRigth")
 
 function pokeSelector(nom) {
     fetch(`https://pokeapi.co/api/v2/pokemon/${nom}`)
-        .then(Response => Response.json())
+        .then(response => response.json())
         .then(data => {
             name.textContent = `Name: ${data.name}`;
             type.textContent = `Type: ${data.types[0].type.name}`;
@@ -43,6 +43,15 @@ function pokeSelector(nom) {
             }
             
         })
+        .catch(error => console.log(error))
 }
 
 search.addEventListener("change", () => pokeSelector(search.value));
+/* 
+fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+    .then(response => response.json())
+    .then(data => {
+        console.log(data.name)
+    })
+    .catch(error => console.log(error)) */
+
