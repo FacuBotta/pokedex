@@ -13,7 +13,7 @@ This small project was a school assignment designed to interact with an API. It 
 - HTML
 - CSS
 - JavaScript
-- RESTful API
+- API
 
 ## Screenshot
 ![Screenshot](./capture-ecran.png)
